@@ -1,0 +1,28 @@
+{
+  "name": "timeless-rest-api",
+  "version": "0.0.1",
+  "description": "REST API for Timeless tokenomics info",
+  "engines": {
+    "node": "16.x"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "bignumber.js": "^9.1.1",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.5",
+    "ethers": "^5.7.2",
+    "express": "^4.15.2"
+  },
+  "devDependencies": {
+    "got": "^11.3.0",
+    "tape": "^4.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/timeless-fi/rest-api"
+  },
+  "license": "MIT"
+}

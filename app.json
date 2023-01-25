@@ -1,0 +1,6 @@
+{
+  "name": "Timeless REST API",
+  "description": "REST API for Timeless tokenomics info",
+  "repository": "https://github.com/timeless-fi/rest-api",
+  "image": "heroku/nodejs"
+}
