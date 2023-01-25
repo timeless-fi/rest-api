@@ -35,6 +35,7 @@ app.get("/circulating-supply", async (req, res) => {
   const deductAddresses = [
     "0x9a8FEe232DCF73060Af348a1B62Cdb0a19852d13", // gov multisig
     "0x7Bf66285d9C4Fc6C1f4BE3A26b13BA0e1d62428E", // veMPH staking
+    "0x6ca23531c1be26b0119a1cd71ca3509c8d0853cc", // airdrop contract
     "0x01FD4e4FaA1D14feAD5aFD13CeaA86Cbdb60Cc4D", // llamapay vesting below
     "0x2904D3Ed8d05587951210626746AfA64CbA31e59",
     "0xb30dC83cE066F900459eC155B69807ce4b86eD96",
@@ -48,6 +49,7 @@ app.get("/circulating-supply", async (req, res) => {
     "0xBD2F44E03CF83b992BC0F4C739158e39D5bD6dFF",
     "0xb9683733593E6340AdE9B091C99A90dAa2358165",
     "0x94bd6a7bc92eD843FaF13706BFd410B2B8619670",
+    "0x883212034e2CB052A5324C6834fc85f4C2BAD779"
   ];
 
   const calls = [];
